@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Hùng Đại Chiến Rồng</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: linear-gradient(135deg, #080d20, #172c59, #321b42);
+            padding: 20px;
+        }
+
+        .container {
+            width: 650px;
+            max-width: 100%;
+            padding: 40px 25px;
+            text-align: center;
+            background: rgba(10, 20, 48, 0.9);
+            border: 1px solid #547cc5;
+            border-radius: 20px;
+            box-shadow: 0 0 30px #1766b8;
+        }
+
+        h1 {
+            color: #ffd45c;
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+
+        .description {
+            color: #c6d6f5;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .characters {
+            font-size: 75px;
+            margin-bottom: 30px;
+        }
+
+        .game-link {
+            display: block;
+            padding: 17px;
+            margin: 15px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #0879d1, #003b8f);
+            transition: 0.3s;
+        }
+
+        .game-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px #00aaff;
+        }
+
+        .game-link.ai {
+            background: linear-gradient(135deg, #e65100, #a51c35);
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #91a9d1;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>⚔ ANH HÙNG ĐẠI CHIẾN RỒNG ⚔</h1>
+
+        <p class="description">
+            Chào mừng đến với thế giới chiến đấu của Anh hùng JavaScript!
+            Hãy chọn phiên bản trò chơi bên dưới.
+        </p>
+
+        <div class="characters">
+            🦸‍♂️ ⚔ 🐉
+        </div>
+
+        <a href="anhhung.html" class="game-link">
+            ⚔ PHIÊN BẢN 1 - ANH HÙNG JAVASCRIPT
+        </a>
+
+        <a href="anhhungAI.html" class="game-link ai">
+            🔥 PHIÊN BẢN 2 - ANH HÙNG AI
+        </a>
+
+        <footer>
+            BÀI TẬP JAVASCRIPT - BUỔI 4
+        </footer>
+
+    </div>
+
+</body>
+</html>
